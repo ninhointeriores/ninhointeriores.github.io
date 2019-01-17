@@ -317,3 +317,23 @@ header.masthead p {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.portfolio-insta {
+    margin: 8px;
+}
+
+.portfolio-insta-status {
+    margin: 2px;
+}
