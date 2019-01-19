@@ -59,6 +59,10 @@ section {
   padding: 8rem 0;
 }
 
+section #p2 {
+  padding: 2rem 0;
+}
+
 .section-heading {
   margin-top: 0;
 }
