@@ -138,14 +138,8 @@
       </div>
     </section>
 
-    <section class="p-0 bg-primary" id="portfolio">
-      <div class="container-fluid p-0">
-          <div class="row no-gutters center" id="instafeed"/>
-        </div>
-      </div>
-    </section>
 
-    <section class="bg-primary text-white">
+    <section class="bg-primary text-white" id="portfolio">
       <div class="container text-center">
         <h2 class="mb-4">Acompanhe nas redes sociais</h2>
 
@@ -175,6 +169,18 @@
         </div>
       </div>
     </section>
+
+
+        <section class="p-0 bg-primary" >
+          <div class="container-fluid p-0 center">
+            <!-- LightWidget WIDGET -->
+            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+            <iframe src="http://lightwidget.com/widgets/feacae295b165b9babeb26ee75d4d76a.html"
+            scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:60%;margin-bottom: 8rem;border:0;overflow:hidden;">
+          </iframe>
+        </div>
+
+      </section>
 
     <section id="contact">
       <div class="container">
@@ -217,38 +223,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-
-    <!-- Instafeed.js is a dead-simple way to add Instagram photos to your website. -->
-    <script src="js/instafeed.min.js"></script>
-    <script type="text/javascript">
-      var feed = new Instafeed({
-          get: 'user',
-          resolution: 'standard_resolution',
-          userId: '2303447442',
-          accessToken: '2303447442.1677ed0.68bad5736e0c4b298bb05dd4ae59fc83',
-          clientId: '165a6e574512411d8376a818111e0bfc',
-          limit: 9,
-          template:
-            '<div class="portfolio-insta">'+
-            '  <a class="portfolio-box" href="{{link}}" target="_blank">'+
-            '    <img class="img-fluid" src="{{image}}" width="400px" alt="">'+
-            '    <div class="portfolio-box-caption">'+
-            '      <div class="portfolio-box-caption-content">'+
-            '        <div class="project-category text-faded">'+
-            '          <i class="fas fa-heart portfolio-insta-status"> </i>{{likes}}  <i class="fas fa-comment portfolio-insta-status"> </i>{{comments}} ' +
-            '        </div>'+
-            '        <div class="project-name">'+
-            '          {{location}}'+
-            '        </div>'+
-            '      </div>'+
-            '    </div>'+
-            '  </a>'+
-            '</div>'
-
-      });
-      feed.run();
-    </script>
-
 
   </body>
 
